@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VLauncher"
         mc:Ignorable="d"
-        Title="MainWindow" Height="900" Width="1600">
-    <Grid ShowGridLines="False" Background="Black">
-        
+        Title="VilmLauncher" Height="900" Width="1600">
+    <Grid ShowGridLines="False" Background="#1F2229">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel x:Name="myStackPanel" Orientation="Horizontal" Margin="0" Background="#2B2D39">
+            <Button x:Name="btn1" Width="60" Height="60" Margin="5" Background="#15181D" />
+            <Button x:Name="btn2" Content="Библиотека" Width="100" Height="30" Margin="442,0,0,0" Background="Transparent" Click="btn2_Click" Foreground="White"/>
+            <Button x:Name="btn3" Content="Библиотека" Width="100" Height="30" Margin="70,0,0,0" Background="Transparent" Click="btn2_Click" Foreground="White"/>
+            <Button x:Name="btn4" Content="Библиотека" Width="100" Height="30" Margin="70,0,0,0" Background="Transparent" Click="btn2_Click" Foreground="White"/>
+            <Button x:Name="btn5" Content="Библиотека" Width="100" Height="30" Margin="70,0,0,0" Background="Transparent" Click="btn2_Click" Foreground="White"/>
+        </StackPanel>
+
     </Grid>
 </Window>

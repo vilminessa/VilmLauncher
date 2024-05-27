@@ -27,5 +27,10 @@ namespace VLauncher
         {
             InitializeComponent();
         }
+
+        private void btn2_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
