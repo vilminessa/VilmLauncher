@@ -32,5 +32,10 @@ namespace VLauncher
         {
 
         }
+
+        private void btn_GoToProfile_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
