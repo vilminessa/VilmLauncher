@@ -53,9 +53,5 @@ namespace VLauncher
         {
 
         }
-        private void btn_GoToBiblio_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }
