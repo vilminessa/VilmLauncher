@@ -30,24 +30,24 @@ namespace VLauncher
 
         private void btn_Settings_Click(object sender, RoutedEventArgs e)
         {
-
+            MainFrame.Content = new Page_Settings_Main();
         }
 
         private void btn_GoToProfile_Click(object sender, RoutedEventArgs e)
         {
-
+            MainFrame.Content = new Page_Profile_Main();
         }
         private void btn_GoToComm_Click(object sender, RoutedEventArgs e)
         {
-
+            MainFrame.Content = new Page_Comm_Main();
         }
         private void btn_GoToShop_Click(object sender, RoutedEventArgs e)
         {
-
+            MainFrame.Content = new Page_Shop_Main();
         }
         private void btn_GoToServers_Click(object sender, RoutedEventArgs e)
         {
-
+            MainFrame.Content = new Page_Servers_Main();
         }
         private void btn_GoToBiblio_Click(object sender, RoutedEventArgs e)
         {
