@@ -5,18 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VLauncher"
         mc:Ignorable="d"
-        Title="VilmLauncher" Height="900" Width="1600">
+        Title="VilmLauncher" Height="1080" Width="1920">
     <Grid ShowGridLines="False" Background="#1F2229">
         <Grid.RowDefinitions>
             <RowDefinition Height="80"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <StackPanel x:Name="myStackPanel" Orientation="Horizontal" Margin="0" Background="#2B2D39">
-            <Button x:Name="btn1" Width="60" Height="60" Margin="5" Background="#15181D" />
-            <Button x:Name="btn2" Content="Библиотека" Width="100" Height="30" Margin="442,0,0,0" Background="Transparent" Click="btn2_Click" Foreground="White"/>
-            <Button x:Name="btn3" Content="Библиотека" Width="100" Height="30" Margin="70,0,0,0" Background="Transparent" Click="btn2_Click" Foreground="White"/>
-            <Button x:Name="btn4" Content="Библиотека" Width="100" Height="30" Margin="70,0,0,0" Background="Transparent" Click="btn2_Click" Foreground="White"/>
-            <Button x:Name="btn5" Content="Библиотека" Width="100" Height="30" Margin="70,0,0,0" Background="Transparent" Click="btn2_Click" Foreground="White"/>
+        <StackPanel x:Name="myStackPanel" Orientation="Horizontal" Margin="0" Background="#2B2D39" Grid.Row="0">
+            <UniformGrid Columns="6" Margin="0,0,0,0" Width="1920">
+                <Button x:Name="btn1" Width="60" Height="60" Background="#15181D" />
+                <Button x:Name="btn2" Content="Библиотека" Width="100" Height="30" Background="Transparent" Click="btn2_Click" Foreground="White"/>
+                <Button x:Name="btn3" Content="Сервера" Width="100" Height="30" Background="Transparent" Click="btn2_Click" Foreground="White"/>
+                <Button x:Name="btn4" Content="Магазин" Width="100" Height="30" Background="Transparent" Click="btn2_Click" Foreground="White"/>
+                <Button x:Name="btn5" Content="Сообщество" Width="100" Height="30" Background="Transparent" Click="btn2_Click" Foreground="White"/>
+                <Button x:Name="btn6" Content="Profile" Width="100" Height="30" Background="#3C404C" Click="btn_GoToProfile_Click" Foreground="White"/>
+            </UniformGrid>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" Grid.Row="1" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#1F1F1F">
+            <Button x:Name="btn7" Width="60" Height="60" Margin="0,20" Background="#15181D"/>
+            <Button x:Name="btn8" Width="60" Height="60" Margin="0,20" Background="#15181D"/>
+            <Button x:Name="btn9" Width="60" Height="60" Margin="0,20" Background="#15181D"/>
+            <Button x:Name="btn10" Width="60" Height="60" Margin="0,20" Background="#15181D"/>
+            <Button x:Name="btn11" Width="60" Height="60" Margin="0,20" Background="#15181D"/>
         </StackPanel>
 
     </Grid>
