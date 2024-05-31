@@ -17,6 +17,7 @@
             <Button x:Name="btn3" Content="Библиотека" Width="100" Height="30" Margin="70,0,0,0" Background="Transparent" Click="btn2_Click" Foreground="White"/>
             <Button x:Name="btn4" Content="Библиотека" Width="100" Height="30" Margin="70,0,0,0" Background="Transparent" Click="btn2_Click" Foreground="White"/>
             <Button x:Name="btn5" Content="Библиотека" Width="100" Height="30" Margin="70,0,0,0" Background="Transparent" Click="btn2_Click" Foreground="White"/>
+            <Button x:Name="btn6" Content="Profile" Width="100" Height="30" Margin="200,0,0,0" Background="#3C404C" Click="btn2_Click" Foreground="White"/>
         </StackPanel>
 
     </Grid>
