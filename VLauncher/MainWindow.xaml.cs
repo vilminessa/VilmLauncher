@@ -26,6 +26,7 @@ namespace VLauncher
         public MainWindow()
         {
             InitializeComponent();
+            MainFrame.Content = new Page_MainPage_Main();
         }
 
         private void btn_Settings_Click(object sender, RoutedEventArgs e)
