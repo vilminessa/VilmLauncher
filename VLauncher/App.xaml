@@ -1,7 +1,7 @@
-﻿<Application x:Class="VLauncher.App"
+﻿<Application x:Class="VilmLauncher.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:VLauncher"
+             xmlns:local="clr-namespace:VilmLauncher"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <Style TargetType="{x:Type Button}">

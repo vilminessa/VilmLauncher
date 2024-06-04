@@ -1,9 +1,9 @@
-﻿<Page x:Class="VLauncher.Page_MainPage_Main"
+﻿<Page x:Class="VilmLauncher.Page_MainPage_Main"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:VLauncher"
+      xmlns:local="clr-namespace:VilmLauncher"
       mc:Ignorable="d" 
       d:DesignHeight="1000" d:DesignWidth="1920"
       Title="Page_MainPage_Main">

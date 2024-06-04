@@ -16,7 +16,7 @@ using System.IO;
 using System.Diagnostics;
 
 
-namespace VLauncher
+namespace VilmLauncher
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
