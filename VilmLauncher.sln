@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VLauncher", "VLauncher\VLauncher.csproj", "{A7CDE66D-B893-4CA8-A9D0-BF608FB5C6F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VilmLauncher", "VLauncher\VilmLauncher.csproj", "{A7CDE66D-B893-4CA8-A9D0-BF608FB5C6F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

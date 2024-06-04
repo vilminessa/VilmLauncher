@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace VLauncher
+namespace VilmLauncher
 {
     /// <summary>
     /// Логика взаимодействия для Page_Shop_Main.xaml
