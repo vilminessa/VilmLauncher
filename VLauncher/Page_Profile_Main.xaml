@@ -9,6 +9,39 @@
       Title="Page_Profile_Main">
 
     <Grid Background="Black">
-        
+        <Grid Background="#262D37" Width="1000" ShowGridLines="False">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="39*"/>
+                <ColumnDefinition Width="11*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0" Grid.Column="0" Background="Transparent" Margin="20,20,20,33">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.5*"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid Background="Azure" Height="227" Width="226" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0"/>
+
+                <StackPanel Grid.Column="1" Orientation="Vertical" Margin="10,27,10,26">
+                    <UniformGrid Rows="3">
+                        <TextBlock Text="Vilminessa" FontSize="30" VerticalAlignment="Center" Foreground="Gainsboro" HorizontalAlignment="Left"/>
+                        <TextBlock Text="Натаха 2км от вас" FontSize="20" Foreground="Gainsboro" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        <TextBlock Text="дискордикс: vilminessa  twitch: vilminessa_" TextAlignment="Left" FontSize="20" Foreground="Gainsboro" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    </UniformGrid>
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="0" Background="Black" Margin="20,10,10,10" Opacity="0.2">
+
+            </Grid>
+            <Grid Grid.Row="0" Grid.Column="1" Background="Black" Margin="10,10,20,10" Opacity="0.2">
+
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="1" Background="Black" Margin="10,10,20,10" Opacity="0.2">
+
+            </Grid>
+        </Grid>
     </Grid>
 </Page>
