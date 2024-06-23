@@ -9,22 +9,17 @@
       Title="Page_MainPage_Main">
 
     <Grid ShowGridLines="False" Background="Transparent">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/><ColumnDefinition/><ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition/><RowDefinition/><RowDefinition/><RowDefinition/>
-        </Grid.RowDefinitions>
-        <Grid Grid.Row="1" Grid.RowSpan="2" Grid.Column="1" Background="White" Margin="100,5,100,5">
-            <TextBlock Text="Sign In" FontSize="20" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="5"/>
-            <StackPanel Orientation="Vertical" Margin="50">
-                <UniformGrid Rows="3" Height="auto" HorizontalAlignment="Center">
-                    <Button Content="Login" Height="40" Margin="5"/>
-                    <TextBox x:Name="InputPassword" Text="Password" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBox>
-                    <StackPanel Orientation="Horizontal">
-                        <UniformGrid Columns="2" HorizontalAlignment="Stretch" Margin="5">
-                            <Button Content="Register" Height="20" Margin="5"/>
-                            <Button Content="Login" Height="20" Margin="5"/>
+        <Grid Background="White" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+            <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                <UniformGrid Rows="4" Height="auto" Width="auto" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Text="Sign In" FontSize="20" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="5"/>
+                    <TextBox x:Name="InputLogin" Text="Login" HorizontalAlignment="Center" VerticalAlignment="Center" Width="95" TextAlignment="Center"></TextBox>
+                    <TextBox x:Name="InputPassword" Text="Password" HorizontalAlignment="Center" VerticalAlignment="Center" Width="95" TextAlignment="Center"></TextBox>
+                    <StackPanel Orientation="Horizontal" Margin="5">
+                        <UniformGrid Columns="2">
+                            <Button Content="Register" Height="20" Width="60"/>
+                            <Button Content="Login" Height="20" Width="50"/>
                         </UniformGrid>
                     </StackPanel>
                 </UniformGrid>
