@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace VilmLauncher
 {
     /// <summary>
-    /// Логика взаимодействия для Page_MainPage_Main.xaml
+    /// Логика взаимодействия для Page_Login_Main.xaml
     /// </summary>
-    public partial class Page_MainPage_Main : Page
+    public partial class Page_Login_Main : Page
     {
-        public Page_MainPage_Main()
+        public Page_Login_Main()
         {
             InitializeComponent();
         }
