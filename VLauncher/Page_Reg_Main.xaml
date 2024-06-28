@@ -1,4 +1,4 @@
-﻿<Page x:Class="VilmLauncher.Page_Login_Main"
+﻿<Page x:Class="VilmLauncher.Page_Reg_Main"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,20 +6,21 @@
       xmlns:local="clr-namespace:VilmLauncher"
       mc:Ignorable="d" 
       d:DesignHeight="1000" d:DesignWidth="1920"
-      Title="Page_Login_Main">
+      Title="Page_Reg_Main">
 
     <Grid ShowGridLines="False" Background="Transparent">
         <Grid Background="White" HorizontalAlignment="Center" VerticalAlignment="Center">
 
             <StackPanel Orientation="Vertical" VerticalAlignment="Center">
-                <UniformGrid Rows="4" Height="auto" Width="auto" HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <TextBlock Text="Sign In" FontSize="20" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="5"/>
+                <UniformGrid Rows="5" Height="auto" Width="auto" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Text="Register" FontSize="20" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="5"/>
                     <TextBox x:Name="InputLogin" Text="Login" HorizontalAlignment="Center" VerticalAlignment="Center" Width="95" TextAlignment="Center"></TextBox>
                     <TextBox x:Name="InputPassword" Text="Password" HorizontalAlignment="Center" VerticalAlignment="Center" Width="95" TextAlignment="Center"></TextBox>
+                    <TextBox x:Name="InputPasswordRepeat" Text="repeat the password" HorizontalAlignment="Center" VerticalAlignment="Center" Width="95" TextAlignment="Center" FontSize="10"></TextBox>
                     <StackPanel Orientation="Horizontal" Margin="5">
                         <UniformGrid Columns="2">
-                            <Button x:Name="buttonRegister" Content="Register" Height="20" Width="60"/>
-                            <Button x:Name="buttonLogin" Content="Login" Height="20" Width="50"/>
+                            <Button x:Name="ButtonRegister" Content="Register" Height="20" Width="60"/>
+                            <Button x:Name="ButtonLogin" Content="Login" Height="20" Width="50"/>
                         </UniformGrid>
                     </StackPanel>
                 </UniformGrid>

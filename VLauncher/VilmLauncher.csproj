@@ -193,6 +193,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Page_Reg_Main.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Page_Login_Main.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -220,6 +224,9 @@
     </Compile>
     <Compile Include="Page_Comm_Main.xaml.cs">
       <DependentUpon>Page_Comm_Main.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page_Reg_Main.xaml.cs">
+      <DependentUpon>Page_Reg_Main.xaml</DependentUpon>
     </Compile>
     <Compile Include="Page_Login_Main.xaml.cs">
       <DependentUpon>Page_Login_Main.xaml</DependentUpon>

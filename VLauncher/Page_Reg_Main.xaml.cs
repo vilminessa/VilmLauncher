@@ -18,15 +18,16 @@ namespace VilmLauncher
     /// <summary>
     /// Логика взаимодействия для Page_Login_Main.xaml
     /// </summary>
-    public partial class Page_Login_Main : Page
+    public partial class Page_Reg_Main : Page
     {
-        public Page_Login_Main()
+        public Page_Reg_Main()
         {
             InitializeComponent();
         }
-        private void buttonRegister_Click(object sender, EventArgs e)
+        private void buttonLogin_Click(object sender, EventArgs e)
         {
-            Page_Reg_Main page_Reg_Main = new Page_Reg_Main();
+            Page_Login_Main page_Login_Main = new Page_Login_Main();
         }
+
     }
 }
