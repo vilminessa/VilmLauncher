@@ -24,9 +24,5 @@ namespace VilmLauncher
         {
             InitializeComponent();
         }
-        private void buttonRegister_Click(object sender, EventArgs e)
-        {
-            Page_Reg_Main page_Reg_Main = new Page_Reg_Main();
-        }
     }
 }

@@ -19,8 +19,8 @@
                     <TextBox x:Name="InputPasswordRepeat" Text="repeat the password" HorizontalAlignment="Center" VerticalAlignment="Center" Width="95" TextAlignment="Center" FontSize="10"></TextBox>
                     <StackPanel Orientation="Horizontal" Margin="5">
                         <UniformGrid Columns="2">
-                            <Button x:Name="ButtonRegister" Content="Register" Height="20" Width="60"/>
-                            <Button x:Name="ButtonLogin" Content="Login" Height="20" Width="50"/>
+                            <Button Content="Register" Height="20" Width="60"/>
+                            <Button Content="Login" Height="20" Width="50"/>
                         </UniformGrid>
                     </StackPanel>
                 </UniformGrid>

@@ -24,10 +24,5 @@ namespace VilmLauncher
         {
             InitializeComponent();
         }
-        private void buttonLogin_Click(object sender, EventArgs e)
-        {
-            Page_Login_Main page_Login_Main = new Page_Login_Main();
-        }
-
     }
 }
