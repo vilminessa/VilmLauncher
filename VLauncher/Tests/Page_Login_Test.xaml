@@ -6,25 +6,11 @@
       xmlns:local="clr-namespace:VilmLauncher"
       mc:Ignorable="d" 
       d:DesignHeight="1000" d:DesignWidth="1920"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       Title="Page_Login_Test">
 
     <Grid ShowGridLines="True">
-        <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
-
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-
-        <TextBlock Text="Login:" Grid.Row="0" Grid.Column="0" Margin="5"/>
-        <TextBox x:Name="LoginTextBox" Grid.Row="0" Grid.Column="1" Margin="5"/>
-
-        <TextBlock Text="Password:" Grid.Row="1" Grid.Column="0" Margin="5"/>
-        <PasswordBox x:Name="PasswordBox" Grid.Row="1" Grid.Column="1" Margin="5"/>
+        
     </Grid>
 
 </Page>
