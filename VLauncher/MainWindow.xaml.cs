@@ -26,7 +26,7 @@ namespace VilmLauncher
         public MainWindow()
         {
             InitializeComponent();
-            MainFrame.Content = new Page_Login_Main();
+            MainFrame.Content = new Page_Login_Test();
         }
 
         private void btn_Settings_Click(object sender, RoutedEventArgs e)
