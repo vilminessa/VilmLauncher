@@ -4,13 +4,24 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:VilmLauncher"
+      
       mc:Ignorable="d" 
-      d:DesignHeight="1000" d:DesignWidth="1920"
-      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      d:DesignHeight="600" d:DesignWidth="400"
       Title="Page_Login_Test">
 
-    <Grid ShowGridLines="True">
-        
-    </Grid>
+    <Border VerticalAlignment="Center" Background="White" CornerRadius="45">
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="10" Color="LightGray" ShadowDepth="0"/>
+        </Border.Effect>
+        <StackPanel Orientation="Vertical">
+            <TextBlock Text="Registration" FontSize="30" FontWeight="Black" Margin="10 10 10 10" HorizontalAlignment="Center"/>
+            
+            <Grid HorizontalAlignment="Center" Width="150">
+                <Button Content="Registration" HorizontalAlignment="Left" Margin="2"/>
+                <Button Content="Login" HorizontalAlignment="Right" Margin="2"/>
+            </Grid>
+            
+        </StackPanel>
+    </Border>
 
 </Page>
