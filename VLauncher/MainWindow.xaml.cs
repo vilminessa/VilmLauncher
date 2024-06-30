@@ -14,7 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.IO;
 using System.Diagnostics;
-
+using System.Data.SqlClient;
 
 namespace VilmLauncher
 {
@@ -23,11 +23,12 @@ namespace VilmLauncher
     /// </summary>
     public partial class MainWindow : Window
     {
+        DB1 dB1 = new DB1();
         public MainWindow()
         {
             InitializeComponent();
 
-            MainFrame.Content = new Page_Login_Test();
+            MainFrame.Content = new Page_Reg_Main();
         }
 
         private void btn_Settings_Click(object sender, RoutedEventArgs e)

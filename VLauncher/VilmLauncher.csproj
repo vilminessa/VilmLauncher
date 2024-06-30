@@ -320,6 +320,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="App_Start\SwaggerConfig.cs" />
+    <Compile Include="DB1.cs" />
     <Compile Include="Tests\Page_Login_Test.xaml.cs">
       <DependentUpon>Page_Login_Test.xaml</DependentUpon>
     </Compile>
