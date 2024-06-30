@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Data.OracleClient;
+using System.Windows.Forms;
 
 namespace VilmLauncher
 {
@@ -20,9 +22,15 @@ namespace VilmLauncher
     /// </summary>
     public partial class Page_Reg_Main : Page
     {
+        DB1 dB1 = new DB1();
         public Page_Reg_Main()
         {
             InitializeComponent();
+            FormStartPosition formStartPosition = FormStartPosition.CenterScreen;
+        }
+        private void log_in_load(object sender, EventArgs e)
+        {
+
         }
     }
 }
