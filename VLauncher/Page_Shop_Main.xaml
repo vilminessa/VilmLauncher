@@ -8,7 +8,14 @@
       d:DesignHeight="1000" d:DesignWidth="1920"
       Title="Page_Shop_Main">
 
-    <Grid Background="Aquamarine">
-        
+    <Grid Background="#1F2229">
+        <StackPanel x:Name="myStackPanel" Orientation="Horizontal" Background="#2B2D39" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <Border BorderThickness="0.1" BorderBrush="Gray" CornerRadius="1">
+                <UniformGrid Columns="6" Margin="10,0,10,0" Width="Auto" HorizontalAlignment="Stretch">
+                    <Button x:Name="btn_Shop_Servers" Content="Сервера" Width="100" Height="30" Background="#33363E" Foreground="White" Margin="10 0 10 0"/>
+                    <Button x:Name="btn_Shop_Skins" Content="Скины" Width="100" Height="30" Background="#33363E" Foreground="White" Margin="10 0 10 0"/>
+                </UniformGrid>
+            </Border>
+        </StackPanel>
     </Grid>
 </Page>

@@ -12,16 +12,15 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <StackPanel x:Name="myStackPanel" Orientation="Horizontal" Background="#2B2D39" Grid.Row="0" HorizontalAlignment="Center">
-            <UniformGrid Columns="6" Margin="10,0,10,0" Width="Auto" HorizontalAlignment="Stretch">
+            <UniformGrid Columns="6" Width="Auto" HorizontalAlignment="Stretch">
                 <Button x:Name="btn_Settings" Width="25" Height="25" Background="#15181D" Click="btn_Settings_Click" />
                 <Button x:Name="btn_Biblio" Content="Библиотека" Width="100" Height="30" Background="#33363E" Click="btn_GoToBiblio_Click" Foreground="White"/>
-                <Button x:Name="btn_Servers" Content="Сервера" Width="100" Height="30" Background="#33363E" Click="btn_GoToServers_Click" Foreground="White"/>
                 <Button x:Name="btn_Shop" Content="Магазин" Width="100" Height="30" Background="#33363E" Click="btn_GoToShop_Click" Foreground="White"/>
                 <Button x:Name="btn_Comm" Content="Сообщество" Width="100" Height="30" Background="#33363E" Click="btn_GoToComm_Click" Foreground="White"/>
-                <Button x:Name="btn_Profile" Content="Profile" Width="100" Height="30" Background="#3C404C" Click="btn_GoToProfile_Click" Foreground="White" Margin="20,0,0,0"/>
+                <Button x:Name="btn_Profile" Content="Profile" Width="100" Height="30" Background="#3C404C" Click="btn_GoToProfile_Click" Foreground="White" Margin="10 0 10 0"/>
             </UniformGrid>
         </StackPanel>
-        <Frame  x:Name="MainFrame" Grid.Row="1" Background="Transparent"/>
+        <Frame  x:Name="MainFrame" NavigationUIVisibility="Hidden" Grid.Row="1" Background="Transparent"/>
 
     </Grid>
 </Window>
