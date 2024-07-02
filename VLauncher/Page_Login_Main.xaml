@@ -13,7 +13,7 @@
 
             <StackPanel Orientation="Vertical" VerticalAlignment="Center">
                 <UniformGrid Rows="4" Height="224" Width="200" HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <TextBlock FontSize="25" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="5"/>
+                    <TextBlock Text="Sign In" FontSize="25" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="5"/>
                     <TextBox Text="Login" HorizontalAlignment="Center" VerticalAlignment="Center" Width="120" TextAlignment="Center" FontSize="16"></TextBox>
                     <TextBox Text="Password" HorizontalAlignment="Center" VerticalAlignment="Center" Width="120" TextAlignment="Center" FontSize="16"></TextBox>
                     <StackPanel Orientation="Horizontal" Margin="5" HorizontalAlignment="Center">

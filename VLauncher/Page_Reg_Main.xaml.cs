@@ -17,9 +17,8 @@ using System.Windows.Forms;
 
 namespace VilmLauncher
 {
-    /// <summary>
-    /// Логика взаимодействия для Page_Login_Main.xaml
-    /// </summary>
+
+    /// смотрел этот видос http s://www.youtube.com/watch?v=x1G3zc6Tzjw&list=PLZ1ih3EaMMaPxxjQcaSN1K-suneVGWMhS&index=2 и ничего не понимал
     public partial class Page_Reg_Main : Page
     {
         DB1 dB1 = new DB1();
